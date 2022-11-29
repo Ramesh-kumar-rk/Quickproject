@@ -1,0 +1,24 @@
+.advice-container {
+    min-height: 74vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0144c;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  .advice-text {
+    width: 60%;
+    background: #cfff8d;
+    padding: 60px 23px;
+    border-radius: 10px;
+    font-size: 1.62rem;
+  }
+  .btn-advice {
+    background: #1746a2;
+  }
+  .btn-advice:hover {
+    opacity: 0.8;
+  }
+  

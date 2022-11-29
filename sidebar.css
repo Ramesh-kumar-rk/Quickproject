@@ -1,0 +1,43 @@
+.come-from-side {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 50%;
+    background: black;
+    opacity: 0.9;
+  }
+  .fix-all-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    min-width: 50%;
+  }
+  .close-btn {
+    text-align: right;
+    padding: 15px 20px;
+  }
+  .contentOfSidebar {
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 1.4rem;
+  }
+  
+  a {
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+  
+  .active {
+    /* color: aqua; */
+    border-bottom: 4px solid rgb(154, 170, 170);
+  }
+  .icon-sidebar {
+    cursor: pointer;
+    margin-left: -15px;
+  }
+  
